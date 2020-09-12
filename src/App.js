@@ -29,9 +29,9 @@ class App extends React.Component {
         });
 
       } else {
-        setCurrentUser({
+        setCurrentUser(
           userAuth
-        })
+        )
       }
 
     })
@@ -41,6 +41,7 @@ class App extends React.Component {
     this.unsubscribeFromAuth();
   }
   render() {
+    console.log(this.props.currentUser)
     return (
       <div >
         {/* Use to have a consistent between every page */}
