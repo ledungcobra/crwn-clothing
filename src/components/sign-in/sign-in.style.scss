@@ -6,7 +6,9 @@
         margin: 10px 0;
     }
     .button-section{
+        width:100%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
+        gap:5px;
     }
 }

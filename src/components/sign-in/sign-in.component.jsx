@@ -55,8 +55,8 @@ class SignIn extends React.Component {
                         label="Password"
                     />
                     <div className="button-section">
-                        <CustomButton type="submit">Sign In</CustomButton>
-                        <CustomButton style={{backgroundColor:"rgb(66,133,244)"}} onClick={signInWithGoogle}>Sign In With Google</CustomButton>
+                        <CustomButton  type="submit">Sign In</CustomButton>
+                        <CustomButton  style={{backgroundColor:"rgb(66,133,244)",flex:2}} onClick={signInWithGoogle}>Sign In With Google</CustomButton>
                     </div>
 
                 </form>
