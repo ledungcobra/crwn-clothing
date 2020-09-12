@@ -1,0 +1,23 @@
+.cart-dropdown{
+    position:absolute;
+    width:240px;
+    height:340px;
+    display:flex;
+    flex-direction:column;
+    padding:20px;
+    border:1px solid black;
+    background-color:white;
+    top:80px;
+    right:50px;
+    z-index:5;
+    .cart-items{
+        flex:8;
+        display:flex;
+        flex-direction:column;
+        overflow:scroll;
+    }
+    button{
+        flex:1;
+        margin-top:auto;
+    }
+}
